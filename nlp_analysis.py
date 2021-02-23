@@ -11,14 +11,14 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 df= pd.read_csv("eu_projects.csv", sep=";")
 
-print(df.head(n=5))
-df_clean = pt.preprocessing_process(df,'description')
+
+pt.preprocessing_process(df,'description')
 
 
 #define vectorizer parameters
 vectorizer = TfidfVectorizer(ngram_range=(1,1))
 
 # Generate matrix of word vectors
-tfidf_matrix = vectorizer.fit_transform(df_clean['description'])
+tfidf_matrix = vectorizer.fit_transform(df['description'])
 
 
