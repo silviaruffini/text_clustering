@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Feb  3 08:07:36 2021
-
-@author: s.ruffini
-"""
-
 
 from sklearn.metrics import silhouette_score
 from sklearn.cluster import KMeans
