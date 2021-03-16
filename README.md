@@ -7,7 +7,7 @@ The steps developed for this process are:
 <li> <strong><em>Pre- processig Text</em></strong> with spaCy (https://spacy.io/);</li>
 <li><strong><em>Feature extraction</em></strong> with <code>sklearn.feature_extraction.text.TfidVectorizer</code>;</li>
 <li><strong><em> Build model and Evaluation </em></strong> with  <code>sklearn.metrics </code> and  <code>sklearn.cluster </code>;</li>
-<li> <strong><em>Visualization with Dash</strong></em> —(Open Source Python library built on top of Flask and Plotly.js);</li>
--</ul>
+<li> <strong><em>Visualization with Dash</strong></em> —(<a href="https://plotly.com/dash/">Open Source Python library built on top of Flask and Plotly.js</a>.);</li>
+</ul>
 
 See also https://ruffinisilvia.medium.com/textual-clustering-summarization-and-visualization-e0dcc5c2d3b
