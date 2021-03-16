@@ -6,7 +6,7 @@ The steps developed for this process are:
 <ul>
 <li> <strong><em>Pre- processig Text</em></strong> with spaCy (https://spacy.io/);</li>
 <li><strong><em>Feature extraction</em></strong> with <code>sklearn.feature_extraction.text.TfidVectorizer</code>;</li>
-<li> Build model and Evaluation with  <code>sklearn.metrics </code> and  <code>sklearn.cluster </code>;</li>
+<li><strong><em> Build model and Evaluation </em></strong> with  <code>sklearn.metrics </code> and  <code>sklearn.cluster </code>;</li>
 <li> <strong><em>Visualization with Dash</strong></em> —(Open Source Python library built on top of Flask and Plotly.js);</li>
 -</ul>
 
